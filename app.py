@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title='3rd Generation Pokemon Identifier', page_icon='gear', layout='wide', initial_sidebar_state='expanded')
 st.markdown("<h1 style='text-align: center;'>3rd Generation Pokemon Identifier</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>Upload an image of a 3rd generation Pokemon to identify it!</h5>", unsafe_allow_html=True)
-st.image('trio.png', width='stretch')
+st.image('Trio.png', width='stretch')
 model_path = 'gen3_model.pth'
 data_dir = 'gen3_dataset'
 
